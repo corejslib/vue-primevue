@@ -47,7 +47,6 @@
         "pdfjs-dist": "^6.0.0"
     },
     "peerDependencies": {
-        "@corejslib/ext": "^5.3.2",
         "@corejslib/vue": "^7.0.0"
     }
 }
