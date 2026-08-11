@@ -1,0 +1,13 @@
+env:
+
+build:
+  extVersion: 8.0.0
+  ewcVersion: 7.5.0
+
+config:
+  amcharts5LicenseKey: ~
+
+  theme:
+    darkMode: auto
+    baseColor: green
+    accentColor: red
