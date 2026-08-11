@@ -1,7 +1,7 @@
 <!-- !!! DO NOT EDIT, THIS FILE IS GENERATED AUTOMATICALLY !!!  -->
 
 > \[!NOTE]
-> Please, see the full project documentation here: <https://corejslib.github.io/vue-ext/>
+> Please, see the full project documentation here: <https://corejslib.github.io/vue-primevue/>
 
 # Introduction
 
@@ -10,7 +10,7 @@
 ## Install
 
 ```sh
-npm install @corejslib/vue-ext
+npm install @corejslib/vue-primevue
 ```
 
 ## Usage
