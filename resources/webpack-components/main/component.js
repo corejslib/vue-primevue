@@ -6,13 +6,7 @@ export default class extends WebpackComponent {
     get webpackResolveAlias () {
         return {
             ...super.webpackResolveAlias,
-            "#vue": "@corejslib/vue-ext",
-
-            "#ext$": "@corejslib/ext/ext-" + this.buildOptions.extVersion,
-            "#ext": "@corejslib/ext/resources/ext-" + this.buildOptions.extVersion,
-            "#ewc$": "@corejslib/ext/ewc-" + this.buildOptions.ewcVersion,
-            "#ewc": "@corejslib/ext/resources/ewc-" + this.buildOptions.ewcVersion,
-            "#ext-charts$": "@corejslib/ext/ext-charts-" + this.buildOptions.extVersion,
+            "#vue": "@corejslib/vue-primevue",
         };
     }
 
@@ -40,13 +34,6 @@ export default class extends WebpackComponent {
         //     },
         //     "priority": -9,
         //     "chunks": "all",
-        // };
-
-        // config.optimization.splitChunks.cacheGroups["ext"] = {
-        //     "name": "ext",
-        //     "test": /@corejslib[\\/]ext[\\/]/,
-        //     "priority": -9,
-        //     "chunks": "initial",
         // };
 
         config.optimization.splitChunks.cacheGroups[ "froala-editor" ] = {

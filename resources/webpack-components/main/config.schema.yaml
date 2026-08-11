@@ -5,11 +5,8 @@
 
 - $id: build
   type: object
-  properties:
-    extVersion: { type: string, pattern: ^\d+\.\d+\.\d+$ }
-    ewcVersion: { type: string, pattern: ^\d+\.\d+\.\d+$ }
-
-  required: [extVersion, ewcVersion]
+  properties: {}
+  required: []
 
 - $id: config
   type: object
