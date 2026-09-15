@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import constants from "#core/app/constants";
+import constants from "@corejslib/app/constants";
 import RolesButton from "#src/components/acl/roles.button";
 import UserRolesDialog from "#src/components/acl/roles.dialog";
 import CardsPanel from "#src/components/cards.panel";

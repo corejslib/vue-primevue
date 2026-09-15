@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import constants from "#core/app/constants";
+import constants from "@corejslib/app/constants";
 import Passwords from "#core/crypto/passwords";
 import RolesPanel from "#src/components/acl/roles.panel";
 
