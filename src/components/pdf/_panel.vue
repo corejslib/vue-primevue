@@ -7,10 +7,7 @@
 <script>
 import * as pdfjs from "pdfjs-dist/build/pdf";
 
-pdfjs.GlobalWorkerOptions.workerPort = new Worker(
-    new URL( "pdfjs-dist/build/pdf.worker.min.mjs", import.meta.url ),
-    { "type": "module" }
-);
+pdfjs.GlobalWorkerOptions.workerPort = new Worker( new URL( "pdfjs-dist/build/pdf.worker.min.mjs", import.meta.url ), { "type": "module" } );
 
 const pixelRatio = window.devicePixelRatio || 1;
 
