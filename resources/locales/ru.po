@@ -57,7 +57,7 @@ msgstr "Добавить пользователя"
 
 #: ../../src/components/acl/add-user.dialog.vue:2:51
 msgid "Adding a user"
-msgstr "Добавлкние пользователя"
+msgstr "Добавление пользователя"
 
 #: ../../src/components/administration/dialog.vue:2:72
 #: ../../src/components/application/menu.vue:22:67
@@ -106,7 +106,7 @@ msgstr "Авторизоваться"
 
 #: ../../src/components/authorization.dialog.vue:94:29
 msgid "Authorized"
-msgstr "Авторизованно"
+msgstr "Авторизован"
 
 #: ../../src/components/development/monitoring/instances/panel.vue:9:45
 #: ../../src/components/development/monitoring/methods/panel.vue:10:45
@@ -125,7 +125,7 @@ msgstr "Режим сервера"
 
 #: ../../src/components/about.dialog.vue:7:38
 msgid "Backend version"
-msgstr "Версия сервеа"
+msgstr "Версия сервера"
 
 #: ../../src/components/account/appearance.panel.vue:22:77
 msgid "Base color"
@@ -217,7 +217,7 @@ msgstr "Вызовы"
 #: ../../src/components/telegram/bot/links/details.panel.vue:64:71
 #: ../../src/utils.js:139:36 ../../src/utils.js:86:36
 msgid "Cancel"
-msgstr "Отменить"
+msgstr "Отмена"
 
 #: ../../src/components/telegram/bot/details/edit-api-token.dialog.vue:2:50
 #: ../../src/components/telegram/bot/details/info.panel.vue:69:124
@@ -363,7 +363,7 @@ msgstr "Текущая сессия"
 msgid "Dark mode"
 msgstr "Тёмный режим"
 
-#: ../../src/components/pdf/_panel.vue:109:35
+#: ../../src/components/pdf/_panel.vue:108:35
 msgid "Default size"
 msgstr "Размер по умолчанию"
 
@@ -424,7 +424,7 @@ msgstr "Отключенные пользователи"
 
 #: ../../src/components/authentication/signin.panel.vue:27:31
 msgid "Do not have account? Sign up"
-msgstr "Нет аккаута? Зарегистрируйтесь"
+msgstr "Нет аккаунта? Зарегистрируйтесь"
 
 #: ../../src/components/account/tokens/create/dialog.vue:22:63
 #: ../../src/components/notifications/panel.vue:9:85
@@ -607,7 +607,7 @@ msgstr "Использовано HDD (МБ)"
 
 #: ../../src/components/notifications/panel.vue:4:40
 msgid "Inbox"
-msgstr "Входяшие"
+msgstr "Входящие"
 
 #: ../../src/components/telegram-support-bot/panel.vue:4:72
 #: ../../src/components/telegram/bot/panel.vue:4:72
@@ -624,7 +624,7 @@ msgstr "Тип экземпляра"
 
 #: ../../src/components/development/panel.vue:4:40
 msgid "Instances monitoring"
-msgstr "Мониторинг экземплярв"
+msgstr "Мониторинг экземпляров"
 
 #: ../../src/components/account/appearance.panel.vue:22:39
 msgid "Interface base color"
@@ -632,7 +632,7 @@ msgstr "Базовый цвет интерфейса"
 
 #: ../../src/components/user-sessions/panel.vue:28:62
 msgid "IP address"
-msgstr "IP адрес"
+msgstr "IP-адрес"
 
 #: ../../src/components/user-sessions/panel.vue:173:25
 msgid "IP address copied"
@@ -726,7 +726,7 @@ msgstr "Отметить все как готовые"
 msgid "Mark as done"
 msgstr "Отметить как готово"
 
-#: ../../src/components/pdf/_panel.vue:78:35
+#: ../../src/components/pdf/_panel.vue:77:35
 msgid "Maximize"
 msgstr "Максимизировать"
 
@@ -852,12 +852,12 @@ msgstr "Изменение пароля"
 
 #: ../../src/components/authentication/password-recovery.panel.vue:65:29
 msgid "Password change instructions were sent to the email address, associated with your account."
-msgstr "Инструкции по изменению пароль отправлены на ваш email."
+msgstr "Инструкции по изменению пароля отправлены на ваш email."
 
 #: ../../src/components/change-password.dialog.vue:74:29
 #: ../../src/components/reset-password.dialog.vue:77:29
 msgid "Password changed"
-msgstr "Пароль изменен"
+msgstr "Пароль изменён"
 
 #: ../../src/components/administration/users/create-user.dialog.vue:65:25
 #: ../../src/components/change-password.dialog.vue:92:25
@@ -1256,7 +1256,7 @@ msgstr "Версия UI"
 
 #: ../../src/app.js:27:32
 msgid "Unable to connect to the API server. Check, that you have internet connection."
-msgstr "Не удалось подключиться к серверу API. Проверьте, что у вас есть подключение к интернет."
+msgstr "Не удалось подключиться к серверу API. Проверьте, что у вас есть подключение к интернету."
 
 #: ../../src/components/cards.panel.vue:21:42
 msgid "Unable to load data"
@@ -1298,7 +1298,7 @@ msgstr "Пользователь удален"
 
 #: ../../src/components/administration/users/panel.vue:351:25
 msgid "User email copied"
-msgstr "Email пользователя скопирована"
+msgstr "Email пользователя скопирован"
 
 #: ../../src/components/administration/users/user-sessions.dialog.vue:2:72
 msgid "User sessions"
@@ -1373,7 +1373,7 @@ msgstr "Ваш аккаунт"
 
 #: ../../src/app.js:39:32
 msgid "Your session was terminated on the API server."
-msgstr "Ваша сессия былп прервана API серввером."
+msgstr "Ваша сессия была завершена на сервере API."
 
 #: ../../src/components/user-sessions/panel.vue:6:65
 msgid "Your sessions"
@@ -1383,11 +1383,11 @@ msgstr "Ваши сессии"
 msgid "Your token:"
 msgstr "Ваш токен:"
 
-#: ../../src/components/pdf/_panel.vue:101:35
+#: ../../src/components/pdf/_panel.vue:100:35
 msgid "Zoom in"
 msgstr "Увеличить"
 
-#: ../../src/components/pdf/_panel.vue:117:35
+#: ../../src/components/pdf/_panel.vue:116:35
 msgid "Zoom out"
 msgstr "Уменьшить"
 

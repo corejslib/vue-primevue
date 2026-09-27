@@ -44,7 +44,7 @@ msgstr "Доступ увімкнено"
 
 #: ../../src/components/account/panel.vue:4:58
 msgid "Account"
-msgstr "Аккаунт"
+msgstr "Акаунт"
 
 #: ../../src/components/administration/users/panel.vue:202:39
 msgid "Actions"
@@ -196,7 +196,7 @@ msgstr "Користувач бота"
 #: ../../src/components/telegram/bot/details/info.panel.vue:13:67
 #: ../../src/components/telegram/create-bot.dialog.vue:24:50
 msgid "Bot username"
-msgstr "Ім&#39;я користувача бота"
+msgstr "Ім'я користувача бота"
 
 #: ../../src/components/administration/telegram/bots.dialog.vue:34:33
 msgid "Bots"
@@ -363,7 +363,7 @@ msgstr "Поточна сесія"
 msgid "Dark mode"
 msgstr "Темний режим"
 
-#: ../../src/components/pdf/_panel.vue:109:35
+#: ../../src/components/pdf/_panel.vue:108:35
 msgid "Default size"
 msgstr "Розмір за замовчуванням"
 
@@ -424,7 +424,7 @@ msgstr "Вимкнуті користувачі"
 
 #: ../../src/components/authentication/signin.panel.vue:27:31
 msgid "Do not have account? Sign up"
-msgstr "Немає облікового запису? зареєструватися"
+msgstr "Немає облікового запису? Зареєструватися"
 
 #: ../../src/components/account/tokens/create/dialog.vue:22:63
 #: ../../src/components/notifications/panel.vue:9:85
@@ -646,7 +646,7 @@ msgstr "Є бот"
 #: ../../src/components/administration/users/panel.vue:21:167
 #: ../../src/components/user-sessions/panel.vue:32:132
 msgid "Last activity"
-msgstr "Останній активность"
+msgstr "Остання активність"
 
 #: ../../src/components/telegram/bot/users/details.panel.vue:26:77
 msgid "Last activity date"
@@ -694,7 +694,7 @@ msgstr "Назва посилання"
 
 #: ../../src/components/notifications/settings.panel.vue:16:43
 msgid "Link Telegram"
-msgstr "Прив’яжіть Telegram"
+msgstr "Прив’язати Telegram"
 
 #: ../../src/components/telegram/bot/links/details.panel.vue:165:29
 #: ../../src/components/telegram/bot/links/details.panel.vue:198:29
@@ -726,7 +726,7 @@ msgstr "Позначити все як виконане"
 msgid "Mark as done"
 msgstr "Позначити як виконане"
 
-#: ../../src/components/pdf/_panel.vue:78:35
+#: ../../src/components/pdf/_panel.vue:77:35
 msgid "Maximize"
 msgstr "Максимізувати"
 
@@ -829,7 +829,7 @@ msgstr "Відкрити бота"
 
 #: ../../src/components/telegram/bot/details/info.panel.vue:20:91
 msgid "Open bot in Telegram"
-msgstr "Відкрити бот в Telegram"
+msgstr "Відкрити бота в Telegram"
 
 #: ../../src/components/development/monitoring/instances/panel.vue:132:39
 #: ../../src/components/development/monitoring/methods/panel.vue:232:39
@@ -1061,7 +1061,7 @@ msgstr "Використано RSS (%)"
 
 #: ../../src/components/development/monitoring/instances/charts.panel.vue:455:24
 msgid "RSS used (MB)"
-msgstr "Використано RSS (Мб)"
+msgstr "Використано RSS (МБ)"
 
 #: ../../src/components/telegram/bot/details/edit-api-token.dialog.vue:9:31
 #: ../../src/components/telegram/bot/details/edit-details.dialog.vue:13:64
@@ -1114,7 +1114,7 @@ msgstr "Надіслати токен"
 
 #: ../../src/app.js:40:21
 msgid "Session closed"
-msgstr "Сесія закрита"
+msgstr "Сесію закрито"
 
 #: ../../src/components/user-sessions/panel.vue:111:29
 msgid "Session was deleted"
@@ -1369,11 +1369,11 @@ msgstr "Ваші права доступу змінено на сервері AP
 #: ../../src/components/account/dialog.vue:2:72
 #: ../../src/components/application/menu.vue:16:115
 msgid "Your account"
-msgstr "Ваш аккаунт"
+msgstr "Ваш акаунт"
 
 #: ../../src/app.js:39:32
 msgid "Your session was terminated on the API server."
-msgstr "Ваша сесія був припинений на сервері API."
+msgstr "Ваша сесія була припинена на сервері API."
 
 #: ../../src/components/user-sessions/panel.vue:6:65
 msgid "Your sessions"
@@ -1383,11 +1383,11 @@ msgstr "Ваші сесії"
 msgid "Your token:"
 msgstr "Ваш токен:"
 
-#: ../../src/components/pdf/_panel.vue:101:35
+#: ../../src/components/pdf/_panel.vue:100:35
 msgid "Zoom in"
 msgstr "Збільшити"
 
-#: ../../src/components/pdf/_panel.vue:117:35
+#: ../../src/components/pdf/_panel.vue:116:35
 msgid "Zoom out"
 msgstr "Зменшити"
 
