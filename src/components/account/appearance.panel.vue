@@ -1,7 +1,7 @@
 <template>
     <ext-container>
         <!-- device dart mode -->
-        <OptionContainer :description="l10n(`User your device dark mode settings`)" :label="l10n(`Device dark mode`)" labelWidth="260">
+        <OptionContainer :description="l10n(`Use your device's dark mode settings.`)" :label="l10n(`Device dark mode`)" labelWidth="260">
             <template #option>
                 <DeviceDarkModeButton label=""/>
             </template>

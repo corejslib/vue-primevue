@@ -1,6 +1,7 @@
 msgid ""
 msgstr ""
 "Language: ru\n"
+"PO-Revision-Date: 2026-10-06T23:24:54.126Z\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Search-Path: /src/**\n"
 
@@ -29,7 +30,7 @@ msgstr "Доступ запрещен"
 #: ../../src/components/acl/panel.vue:246:22
 #: ../../src/components/administration/users/panel.vue:262:22
 msgid "Access disabled"
-msgstr "Доступ запрещен"
+msgstr "Доступ отключён"
 
 #: ../../src/components/account/tokens/panel.vue:155:22
 #: ../../src/components/account/tokens/panel.vue:23:88
@@ -40,7 +41,7 @@ msgstr "Доступ запрещен"
 #: ../../src/components/administration/users/panel.vue:25:67
 #: ../../src/components/administration/users/panel.vue:261:22
 msgid "Access enabled"
-msgstr "Доступ разрешен"
+msgstr "Доступ включён"
 
 #: ../../src/components/account/panel.vue:4:58
 msgid "Account"
@@ -76,11 +77,11 @@ msgid "Appearance"
 msgstr "Внешний вид"
 
 #: ../../src/components/telegram/bot/details/info.panel.vue:180:47
-msgid "Are you sure you want to delete this bot and all it's data? This operation is not revertable."
+msgid "Are you sure you want to delete this bot and all its data? This operation is irreversible."
 msgstr "Вы уверены, что хотите удалить этого бота и все его данные? Эта операция необратима."
 
 #: ../../src/components/telegram/bot/links/details.panel.vue:206:47
-msgid "Are you sure you want to delete this link and all it's data? This operation is not revertable."
+msgid "Are you sure you want to delete this link and all its data? This operation is irreversible."
 msgstr "Вы уверены, что хотите удалить эту ссылку и все ее данные? Эта операция необратима."
 
 #: ../../src/components/account/tokens/panel.vue:166:47
@@ -230,7 +231,7 @@ msgstr "Изменить адрес электронной почты"
 
 #: ../../src/components/change-email.dialog.vue:44:29
 msgid "Change email address token was sent to the new email address"
-msgstr "Токен изменения адреса электронной почты был отправлен на новый адрес электронной почты."
+msgstr "Токен изменения адреса электронной почты был отправлен на новый адрес электронной почты"
 
 #: ../../src/components/account/account.panel.vue:12:39
 #: ../../src/components/administration/users/panel.vue:219:48
@@ -413,9 +414,9 @@ msgstr "Разработка"
 msgid "Device"
 msgstr "Устройство"
 
-#: ../../src/components/account/appearance.panel.vue:4:92
+#: ../../src/components/account/appearance.panel.vue:4:94
 msgid "Device dark mode"
-msgstr "Темный режим устройства"
+msgstr "Тёмный режим устройства"
 
 #: ../../src/components/telegram/bot/details/info.panel.vue:55:92
 #: ../../src/components/telegram/bot/links/details.panel.vue:43:107
@@ -446,7 +447,7 @@ msgstr "Длительность (мс)"
 
 #: ../../src/components/development/monitoring/methods/panel.vue:161:28
 msgid "Duration / call (ms)"
-msgstr "Длительность вызова (мс)"
+msgstr "Длительность / вызов (мс)"
 
 #: ../../src/components/development/monitoring/methods/charts.panel.vue:252:24
 msgid "Duration per call (ms)"
@@ -851,8 +852,8 @@ msgid "Password change"
 msgstr "Изменение пароля"
 
 #: ../../src/components/authentication/password-recovery.panel.vue:65:29
-msgid "Password change instructions were sent to the email address, associated with your account."
-msgstr "Инструкции по изменению пароля отправлены на ваш email."
+msgid "Password change instructions were sent to the email address associated with your account."
+msgstr "Инструкции по смене пароля отправлены на адрес электронной почты, связанный с вашей учетной записью."
 
 #: ../../src/components/change-password.dialog.vue:74:29
 #: ../../src/components/reset-password.dialog.vue:77:29
@@ -1206,7 +1207,7 @@ msgstr "Чтобы использовать бота поддержки, вам 
 
 #: ../../src/components/account/appearance.panel.vue:13:39
 msgid "Toggle dark mode"
-msgstr "Переключить темный режим"
+msgstr "Переключить тёмный режим"
 
 #: ../../src/components/account/tokens/panel.vue:15:118
 msgid "Token"
@@ -1255,7 +1256,7 @@ msgid "UI version"
 msgstr "Версия UI"
 
 #: ../../src/app.js:27:32
-msgid "Unable to connect to the API server. Check, that you have internet connection."
+msgid "Unable to connect to the API server. Check that you have an internet connection."
 msgstr "Не удалось подключиться к серверу API. Проверьте, что у вас есть подключение к интернету."
 
 #: ../../src/components/cards.panel.vue:21:42
@@ -1277,7 +1278,11 @@ msgstr "Отписавшиеся пользователи"
 
 #: ../../src/components/device-dark-mode.button.vue:28:19
 msgid "Use device dark mode"
-msgstr "Использовать темный режим устройства"
+msgstr "Использовать тёмный режим устройства"
+
+#: ../../src/components/account/appearance.panel.vue:4:39
+msgid "Use your device's dark mode settings."
+msgstr "Используйте настройки темного режима вашего устройства."
 
 #: ../../src/components/acl/add-user.dialog.vue:84:29
 msgid "User added"
@@ -1311,10 +1316,6 @@ msgstr "Пользователь подписался"
 #: ../../src/components/telegram/bot/users/models/user.js:54:27
 msgid "User unsubscribed"
 msgstr "Пользователь отписался"
-
-#: ../../src/components/account/appearance.panel.vue:4:39
-msgid "User your device dark mode settings"
-msgstr "Используйте настройки темного режима вашего устройства"
 
 #: ../../src/components/telegram/bot/users/details.panel.vue:10:71
 #: ../../src/components/telegram/bot/users/panel.vue:18:69
@@ -1390,792 +1391,3 @@ msgstr "Увеличить"
 #: ../../src/components/pdf/_panel.vue:116:35
 msgid "Zoom out"
 msgstr "Уменьшить"
-
-#, fuzzy, javascript-format
-#~ msgid "${n} days"
-#~ msgid_plural "${n} days"
-#~ msgstr[0] "${n} дней"
-#~ msgstr[1] ""
-#~ msgstr[2] ""
-
-#, javascript-format
-#~ msgid "${n} role selected"
-#~ msgid_plural "${n} roles selected"
-#~ msgstr[0] "Выбрана ${n} роль"
-#~ msgstr[1] "Выбрано ${n} роли"
-#~ msgstr[2] "Выбранр ${n} ролей"
-
-#, fuzzy, javascript-format
-#~ msgid "${n} roles selected"
-#~ msgid_plural "${n} roles selected"
-#~ msgstr[0] "Выбрано ${n} ролей"
-#~ msgstr[1] ""
-#~ msgstr[2] ""
-
-#, javascript-format
-#~ msgid "${n} scppe"
-#~ msgid_plural "${n} roles"
-#~ msgstr[0] "${n} роль"
-#~ msgstr[1] "${n} роли"
-#~ msgstr[2] "${n} ролей"
-
-#~ msgid "Access token created"
-#~ msgstr "Токен доступа создан"
-
-#~ msgid "Access tokens"
-#~ msgstr "Токены доступа"
-
-#~ msgid "Active calls"
-#~ msgstr "Активные вызовы"
-
-#~ msgid "Active sessions"
-#~ msgstr "Активные сессии"
-
-#, fuzzy
-#~| msgid "Add / update user"
-#~ msgid "Add / update user roles"
-#~ msgstr "Добавить / обновить пользователя"
-
-#~ msgid "API call log"
-#~ msgstr "Лог вызовов API"
-
-#~ msgid "API key created"
-#~ msgstr "Ключ API создан"
-
-#~ msgid "API key deleted"
-#~ msgstr "Ключ API удален"
-
-#~ msgid "API keys"
-#~ msgstr "Ключи API"
-
-#~ msgid "API status"
-#~ msgstr "Статус API"
-
-#~ msgid "Application URL"
-#~ msgstr "URL приложения"
-
-#~ msgid "Architecture"
-#~ msgstr "Архитектура"
-
-#~ msgid "Are you sure you want to delete release?"
-#~ msgstr "Вы действительно хотите удалить релиз?"
-
-#~ msgid "Are you sure you want to do that?"
-#~ msgstr "Вы уверены, что хотите сделать это?"
-
-#~ msgid "Average duration per call for the last 30 days (ms)"
-#~ msgstr "Средняя длительнрсть вызова за последние 30 дней (мс)"
-
-#~ msgid "Average duration per call for the last 60 minutes (ms)"
-#~ msgstr "Средняя длительнрсть вызова за последние 60 минут (мс)"
-
-#: ../../src/components/telegram/bot/users/details.panel.vue:30:69
-#~ msgid "Ban status"
-#~ msgstr "Статус бана"
-
-#: ../../src/components/telegram/bot/users/details.panel.vue:33:77
-#~ msgid "Ban user"
-#~ msgstr "Заблокировать пользователя"
-
-#, fuzzy
-#~ msgid "Banned"
-#~ msgstr "Запрещено"
-
-#: ../../src/components/telegram/bot/details/info.panel.vue:55:90
-#: ../../src/components/telegram/bot/links/details.panel.vue:43:105
-#~ msgid "Banned users"
-#~ msgstr "Забаненные пользователи"
-
-#, fuzzy
-#~ msgid "Bot info"
-#~ msgstr "Но информация"
-
-#, fuzzy
-#~ msgid "Bot users"
-#~ msgstr "Пользователи ботов"
-
-#~ msgid "Calls for the last 30 days"
-#~ msgstr "Вызовы за последние 30 дней"
-
-#~ msgid "Calls for the last 60 minutes"
-#~ msgstr "Вызовы за последние 60 минут"
-
-#~ msgid "Change"
-#~ msgstr "Изменить"
-
-#: ../../src/components/account/account.panel.vue:22:47
-#~ msgid "Change email"
-#~ msgstr "Изменить email"
-
-#: ../../src/components/change-email.dialog.vue:44:29
-#~ msgid "Change email token was sent to the new email address"
-#~ msgstr "Токен изменения электронной почты был отправлен на новый адрес электронной почты"
-
-#~ msgid "Change password for user"
-#~ msgstr "Изменить пароль для пользователя"
-
-#~ msgid "Choose update"
-#~ msgstr "Выберите обновление"
-
-#~ msgid "Clear exceptions"
-#~ msgstr "Очистить исключения"
-
-#~ msgid "Close"
-#~ msgstr "Закрыть"
-
-#~ msgid "Confirm"
-#~ msgstr "Подтвердить"
-
-#~ msgid "Confirm your password"
-#~ msgstr "Подтвердите ваш пароль"
-
-#~ msgid "Confirmation token"
-#~ msgstr "Токен подтверждения"
-
-#~ msgid "Connect bot"
-#~ msgstr "Подключить бот"
-
-#~ msgid "Continue"
-#~ msgstr "Продолжить"
-
-#~ msgid "Copy email to the clipboard"
-#~ msgstr "Копировать email в буфер обмена"
-
-#~ msgid "Copy to clipboard"
-#~ msgstr "Копировать в буфер"
-
-#~ msgid "Copy version info to clipboard"
-#~ msgstr "Скопировать информацию о версии в буфер"
-
-#~ msgid "CPU (system)"
-#~ msgstr "ЦП (система)"
-
-#~ msgid "CPU (system) for the last 30 days"
-#~ msgstr "ЦП (система) за последние 30 дней"
-
-#~ msgid "CPU (system) for the last 60 minutes"
-#~ msgstr "ЦП (система) за последние 60 минут"
-
-#~ msgid "CPU (user)"
-#~ msgstr "ЦП (пользователь)"
-
-#~ msgid "CPU (user) for the last 30 days"
-#~ msgstr "ЦП (пользователь) за последние 30 дней"
-
-#~ msgid "CPU (user) for the last 60 minutes"
-#~ msgstr "ЦП (пользователь) за последние 60 минут"
-
-#~ msgid "CPU system"
-#~ msgstr "ЦП система"
-
-#~ msgid "CPU system for the last 30 days"
-#~ msgstr "ЦП система за последние 30 дней"
-
-#~ msgid "CPU system for the last 60 minutes"
-#~ msgstr "ЦП система за последние 60 минут"
-
-#~ msgid "CPU user"
-#~ msgstr "ЦП пользователь"
-
-#~ msgid "CPU user for the last 30 days"
-#~ msgstr "ЦПпользователь за последние 30 дней"
-
-#~ msgid "CPU user for the last 60 minutes"
-#~ msgstr "ЦП пользовательза последние 60 минут"
-
-#~ msgid "Create"
-#~ msgstr "Создать"
-
-#~ msgid "Create access token"
-#~ msgstr "Создать токен доступа"
-
-#~ msgid "Create API key"
-#~ msgstr "Создать ключ API"
-
-#, fuzzy
-#~ msgid "Create bpt"
-#~ msgstr "Создать БПТ"
-
-#~ msgid "Create Telegram bot"
-#~ msgstr "Создать Telegram-бот"
-
-#~ msgid "Create Telegram bot link"
-#~ msgstr "Создать ссылку на бота в Telegram"
-
-#, fuzzy
-#~ msgid "Createbot"
-#~ msgstr "Создатьбот"
-
-#~ msgid "Created"
-#~ msgstr "Создан"
-
-#, fuzzy
-#~ msgid "Cuttent session"
-#~ msgstr "Каттентская сессия"
-
-#: ../../src/components/telegram/bot/users/details.panel.vue:33:81
-#~ msgid "Disable user"
-#~ msgstr "Отключить пользователя"
-
-#~ msgid "Edit token permissions"
-#~ msgstr "Редактировать права токена"
-
-#~ msgid "Edit token roles"
-#~ msgstr "Редактировать роли токена"
-
-#~ msgid "Edit user scopes"
-#~ msgstr "Редактировать разрешения пользователя"
-
-#, javascript-format
-#~ msgid "Email${n}notifications"
-#~ msgstr "Email${n}уведомления"
-
-#~ msgid "Enable push notifications"
-#~ msgstr "Включить push уведомления"
-
-#: ../../src/components/telegram/bot/users/details.panel.vue:34:80
-#~ msgid "Enable user"
-#~ msgstr "Включить пользователя"
-
-#~ msgid "Enter confirmation token"
-#~ msgstr "Введите токен подтверждения"
-
-#~ msgid "Enter token"
-#~ msgstr "Введите токен"
-
-#~ msgid "Enter your password"
-#~ msgstr "Введите ваш пароль"
-
-#~ msgid "Enter your username or email"
-#~ msgstr "Введите ваше имя пользователя или email"
-
-#: ../../src/components/development/cron/panel.vue:20:98
-#~ msgid "Error"
-#~ msgstr "Ошибка"
-
-#~ msgid "Exceptions percent for the last 30 days (%)"
-#~ msgstr "Процент Исключений за последние 30 дней"
-
-#~ msgid "Exceptions percent for the last 60 minutes (%)"
-#~ msgstr "Процент Исключений за последние 60 минут"
-
-#~ msgid "File system free space (MB) for the last 30 days"
-#~ msgstr "Свободное место в файловой системе (МБ) за последние 30 дней"
-
-#~ msgid "File system free space (MB) for the last 60 minutes"
-#~ msgstr "Свободное место в файловой системе (МБ) за последние 60 минут"
-
-#, fuzzy
-#~| msgid "Please, fill all required fields"
-#~ msgid "Fill all required fields"
-#~ msgstr "Пожалуйста, заполните все требуемые поля"
-
-#~ msgid "Finished"
-#~ msgstr "Завершен"
-
-#~ msgid "Format: username <email@address>."
-#~ msgstr "Формат: имя пользователя <email@address>."
-
-#~ msgid "Free"
-#~ msgstr "Свободео"
-
-#~ msgid "Free memory"
-#~ msgstr "Свободная память"
-
-#~ msgid "Free memory (MB) for the last 30 days"
-#~ msgstr "Свободная память (МБ) за последние 30 дней"
-
-#~ msgid "Free memory (MB) for the last 60 minutes"
-#~ msgstr "Свободная память (МБ) за последние 60 минут"
-
-#~ msgid "From"
-#~ msgstr "От"
-
-#: ../../src/components/development/monitoring/instances/panel.vue:21:56
-#~ msgid "FS total"
-#~ msgstr "FS Всего"
-
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:546:33
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:578:33
-#~ msgid "FS used"
-#~ msgstr "FS используется"
-
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:572:24
-#~ msgid "FS used (%)"
-#~ msgstr "FS используется (%)"
-
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:495:24
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:540:24
-#~ msgid "FS used (MB)"
-#~ msgstr "FS используется (МБ)"
-
-#~ msgid "HDD free"
-#~ msgstr "HDD свободно"
-
-#~ msgid "HDD total"
-#~ msgstr "HDD всего"
-
-#~ msgid "Historical charts"
-#~ msgstr "Исторические графики"
-
-#, javascript-format
-#~ msgid "Historical charts for the method: ${n}"
-#~ msgstr "Исторические диаграммы для метода: ${n}"
-
-#: ../../src/components/account/tokens/panel.vue:15:118
-#, fuzzy
-#~ msgid "ID"
-#~ msgstr "ИДЕНТИФИКАТОР"
-
-#~ msgid "If you have Telegram installed on <b>THIS</b> device, then press button below to open Telegram bot and then click \"Start\":"
-#~ msgstr "Если у вас установлен Telegram на <b>ЭТОМ</b> устройстве, нажмите кнопку ниже, чтобы открыть Telegram-бота, а затем нажмите «Старт»:"
-
-#, javascript-format
-#~ msgid "In order to receive telegram notifications you need to set your telegram username. Then open chat with the <b>@${n}</b> and press <b>\"Start\"</b>."
-#~ msgstr "Для получения уведомлений в Telegram вам нужно установить ваше имя пользователя в Telegram. После этого откройте чат с <b>@${n}</b> и нажмите <b>\"Start\"</b>."
-
-#, javascript-format
-#~ msgid "Internal${n}notifications"
-#~ msgstr "Внутренние${n}уведомления"
-
-#~ msgid "Key roles updated"
-#~ msgstr "Роли ключа обновлены"
-
-#, fuzzy
-#~ msgid "Last 3 months"
-#~ msgstr "Последние 3 месяца"
-
-#, fuzzy
-#~ msgid "Last 7 days"
-#~ msgstr "Последние 7 дней"
-
-#, fuzzy, javascript-format
-#~ msgid "Last day"
-#~ msgid_plural "Last ${n} days"
-#~ msgstr[0] "Последний день"
-#~ msgstr[1] ""
-#~ msgstr[2] ""
-
-#, fuzzy, javascript-format
-#~ msgid "Last month"
-#~ msgid_plural "Last ${n} months"
-#~ msgstr[0] "Прошлый месяц"
-#~ msgstr[1] ""
-#~ msgstr[2] ""
-
-#, fuzzy
-#~ msgid "Last new user subscribed"
-#~ msgstr "Последний новый пользователь подписался"
-
-#, fuzzy
-#~ msgid "Last user created"
-#~ msgstr "Последний созданный пользователь"
-
-#, fuzzy
-#~ msgid "Last year"
-#~ msgstr "В прошлом году"
-
-#~ msgid "Mark as read"
-#~ msgstr "Отметить как прочитанное"
-
-#, javascript-format
-#~ msgid "Method: ${n}"
-#~ msgstr "Метод: ${n}"
-
-#, fuzzy
-#~ msgid "Next"
-#~ msgstr "Следующий"
-
-#, fuzzy
-#~ msgid "Next step "
-#~ msgstr "Следующий шаг "
-
-#~ msgid "No"
-#~ msgstr "Нет"
-
-#~ msgid "No records matched search criteria"
-#~ msgstr "Нет записей, соответствующих критериям поиска"
-
-#~ msgid "No scopes assigned"
-#~ msgstr "Нет назначенных разрешений"
-
-#, fuzzy
-#~ msgid "No Telegram bots found"
-#~ msgstr "Боты Telegram не найдены"
-
-#, fuzzy
-#~ msgid "Not banned"
-#~ msgstr "Не запрещен"
-
-#~ msgid "Not subscribed"
-#~ msgstr "Не подписан"
-
-#~ msgid "Notification types"
-#~ msgstr "Типы уведомлений"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#, javascript-format
-#~ msgid "Open @${n}"
-#~ msgstr "Открыть @${n}"
-
-#, fuzzy
-#~ msgid "Open bot in Tekegram"
-#~ msgstr "Открыть бот в Текеграме"
-
-#~ msgid "Open Telegram bot"
-#~ msgstr "Открыть Telegram-бот"
-
-#~ msgid "Or if you have Telegram installed on the <b>OTHER</b> device, then copy link url and open it on device there your Telegram is installed:"
-#~ msgstr "Или, если у вас установлен Telegram на <b>ДРУГОМ</b> устройстве, скопируйте ссылку и откройте ее на устройстве, где установлен ваш Telegram:"
-
-#~ msgid "Passwords are not match"
-#~ msgstr "Пароли не совпадают"
-
-#, fuzzy
-#~ msgid "Past year"
-#~ msgstr "Прошлый год"
-
-#~ msgid "Please, correctly fill all required fields"
-#~ msgstr "Пожалуйста, правильно заполните все требуемые поля"
-
-#~ msgid "Please, fill all fields"
-#~ msgstr "Пожалуйста, заполните все поля"
-
-#, fuzzy
-#~| msgid "Please, correctly fill all required fields"
-#~ msgid "Please, fill all required fields correctly"
-#~ msgstr "Пожалуйста, правильно заполните все требуемые поля"
-
-#, fuzzy
-#~| msgid "Username <email@address>"
-#~ msgid "Primary email address"
-#~ msgstr "Имя пользователя <email@address>"
-
-#: ../../src/components/telegram-support-bot/component.js:11:15
-#~ msgid "Project support bot"
-#~ msgstr "Бот поддержки проекта"
-
-#: ../../src/components/telegram-support-bot/component.js:19:15
-#~ msgid "Project support bot. For internal use only."
-#~ msgstr "Бот поддержки проекта. Только для внутреннего использования."
-
-#, fuzzy
-#~ msgid "Project support bot. For internal use pnly."
-#~ msgstr "Бот поддержки проекта. Только для внутреннего использования."
-
-#~ msgid "Published"
-#~ msgstr "Опубликовано"
-
-#, javascript-format
-#~ msgid "Push${n}notifications"
-#~ msgstr "Push${n}уведомления"
-
-#~ msgid "Refresh notifications"
-#~ msgstr "Обновить уведомления"
-
-#~ msgid "Release created"
-#~ msgstr "Релиз создан"
-
-#~ msgid "Reset"
-#~ msgstr "Сбросить"
-
-#~ msgid "Reset password"
-#~ msgstr "Сбросить пароль"
-
-#~ msgid "root user"
-#~ msgstr "root пользователь"
-
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:401:33
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:433:33
-#~ msgid "RSS memory"
-#~ msgstr "RSS-память"
-
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:427:24
-#~ msgid "RSS memory (%)"
-#~ msgstr "RSS-память (%)"
-
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:350:24
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:395:24
-#~ msgid "RSS memory (MB)"
-#~ msgstr "RSS-память (МБ)"
-
-#~ msgid "RSS memory (MB) for the last 30 days"
-#~ msgstr "Память RSS (МБ) за последние 30 дней"
-
-#~ msgid "RSS memory (MB) for the last 60 minutes"
-#~ msgstr "Память RSS (МБ) за последние 60 минут"
-
-#~ msgid "Runtime (sec.)"
-#~ msgstr "Время выполнение (сек.)"
-
-#~ msgid "Save username"
-#~ msgstr "Сохранить имя пользователя"
-
-#~ msgid "Scope"
-#~ msgstr "Разрешение"
-
-#~ msgid "Scope disabled"
-#~ msgstr "Разрешение отключено"
-
-#~ msgid "Scope enabled"
-#~ msgstr "Разрешение включено"
-
-#~ msgid "Scopes"
-#~ msgstr "Разрешения"
-
-#~ msgid "Security"
-#~ msgstr "Безопастность"
-
-#~ msgid "Select roles"
-#~ msgstr "Выбрать роли"
-
-#, fuzzy
-#~ msgid "Select Telegram bot tyoe"
-#~ msgstr "Выберите бот Telegram"
-
-#, fuzzy
-#~ msgid "Select Telegram bot type"
-#~ msgstr "Выберите тип бота Telegram"
-
-#, fuzzy, javascript-format
-#~ msgid "Selected roles: ${n}"
-#~ msgstr "Выбранные роли: ${n}"
-
-#~ msgid "Semantic version 1.2.3"
-#~ msgstr "Семантическая версия 1.2.3"
-
-#~ msgid "Sessions drop"
-#~ msgstr "Сброс сессий"
-
-#~ msgid "Settings updated"
-#~ msgstr "Настройки обновлены"
-
-#~ msgid "Sign in with Facebook"
-#~ msgstr "Войти через Facebook"
-
-#~ msgid "Sign in with GitHub"
-#~ msgstr "Войти через GitHub"
-
-#~ msgid "Sign out from all sessions, except this session"
-#~ msgstr "Выйти из всех сессий кроме этой"
-
-#~ msgid "Sign out of all sessions"
-#~ msgstr "Выйти из всех сессий"
-
-#, fuzzy
-#~| msgid "Sign out"
-#~ msgid "Signout"
-#~ msgstr "Выйти"
-
-#~ msgid "SMTP host"
-#~ msgstr "SMTP хост"
-
-#~ msgid "SMTP password"
-#~ msgstr "Пароль SMTP"
-
-#~ msgid "SMTP port"
-#~ msgstr "Порт SMTP"
-
-#~ msgid "Start"
-#~ msgstr "Старт"
-
-#~ msgid "Static"
-#~ msgstr "Статический"
-
-#~ msgid "Stop"
-#~ msgstr "Остановить"
-
-#~ msgid "Stopped"
-#~ msgstr "Остановлено"
-
-#~ msgid "Submit"
-#~ msgstr "Отправить"
-
-#~ msgid "Subscribed"
-#~ msgstr "Подписан"
-
-#, fuzzy
-#~ msgid "Support bot"
-#~ msgstr "Поддержка бот"
-
-#, fuzzy
-#~ msgid "Telegram bot charts"
-#~ msgstr "Графики ботов Telegram"
-
-#, fuzzy
-#~ msgid "Telegram bot created"
-#~ msgstr "Telegram-бот создан."
-
-#, fuzzy
-#~ msgid "Telegram bot link"
-#~ msgstr "Ссылка на бота в Telegram"
-
-#, fuzzy
-#~ msgid "Telegram bot link charts"
-#~ msgstr "График ссылок ботов Telegram"
-
-#, fuzzy
-#~ msgid "Telegram bot name"
-#~ msgstr "Имя бота в Telegram"
-
-#, fuzzy
-#~ msgid "Telegram bot type"
-#~ msgstr "Тип Telegram-бота"
-
-#, fuzzy
-#~ msgid "Telegram bot url"
-#~ msgstr "Ссылка на бота Telegram"
-
-#, fuzzy
-#~ msgid "Telegram bot user"
-#~ msgstr "Пользователь Telegram-бота"
-
-#, fuzzy
-#~ msgid "Telegram bot username"
-#~ msgstr "Имя пользователя Telegram-бота"
-
-#~ msgid "Telegram bots"
-#~ msgstr "Telegram-боты"
-
-#, fuzzy
-#~| msgid "Telegram username"
-#~ msgid "Telegram bpts"
-#~ msgstr "Имя пользователя в Telegram"
-
-#~ msgid "Telegram link copied to the clipboard"
-#~ msgstr "Ссылка на Telegram скопирована в буфер обмена"
-
-#~ msgid "Telegram linked"
-#~ msgstr "Telegram привязвн"
-
-#~ msgid "Telegram unlinked"
-#~ msgstr "Telegram отвязан"
-
-#, fuzzy
-#~ msgid "Telegram username"
-#~ msgstr "Имя пользователя Telegram"
-
-#, javascript-format
-#~ msgid "Telegram${n}notifications"
-#~ msgstr "Telegram${n}уведомления"
-
-#~ msgid "Test SMTP"
-#~ msgstr "Тест SMTP"
-
-#~ msgid "To use Telegram support bot you need to link your Telegram account"
-#~ msgstr "Чтобы использовать бота поддержки Telegram, вам необходимо связать свою учетную запись Telegram"
-
-#~ msgid "Token roles updated"
-#~ msgstr "Роли токена обновлены"
-
-#: ../../src/components/development/monitoring/instances/panel.vue:15:60
-#~ msgid "Total memory"
-#~ msgstr "Общая память"
-
-#~ msgid "Try again"
-#~ msgstr "Пробовать еще раз"
-
-#~ msgid "Type"
-#~ msgstr "Тип"
-
-#~ msgid "Unable to load records"
-#~ msgstr "Не удалось загрузить записи"
-
-#: ../../src/components/telegram/bot/users/details.panel.vue:34:79
-#~ msgid "Unban user"
-#~ msgstr "Разбанить пользователя"
-
-#~ msgid "Unlink Telegram"
-#~ msgstr "Отвязать Telegram"
-
-#~ msgid "Update"
-#~ msgstr "Обноаить"
-
-#~ msgid "Update deleted"
-#~ msgstr "Обновление удалено"
-
-#~ msgid "Update password"
-#~ msgstr "Обновить пароль"
-
-#~ msgid "Upload"
-#~ msgstr "Загрузить"
-
-#~ msgid "Upload release"
-#~ msgstr "Загрузить релиз"
-
-#~ msgid "Use OS theme"
-#~ msgstr "Использовать тему ОС"
-
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:256:33
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:288:33
-#~ msgid "Used memory"
-#~ msgstr "Используемая память"
-
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:282:24
-#~ msgid "Used memory (%)"
-#~ msgstr "Используемая память (%)"
-
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:205:24
-#: ../../src/components/development/monitoring/instances/charts.panel.vue:250:24
-#~ msgid "Used memory (MB)"
-#~ msgstr "Использованная память (МБ)"
-
-#~ msgid "User"
-#~ msgstr "Пользователь"
-
-#, javascript-format
-#~ msgid "User ${n}"
-#~ msgstr "Пользователь ${n}"
-
-#~ msgid "User agent"
-#~ msgstr "Агент пользователя"
-
-#: ../../src/components/telegram/bot/users/models/user.js:63:27
-#~ msgid "User banned"
-#~ msgstr "Пользователь заблокирован"
-
-#: ../../src/components/telegram/bot/users/models/user.js:66:27
-#~ msgid "User disabled"
-#~ msgstr "Пользователь выключен"
-
-#: ../../src/components/telegram/bot/users/models/user.js:63:27
-#~ msgid "User enabled"
-#~ msgstr "Пользователь включен"
-
-#: ../../src/components/telegram/bot/users/models/user.js:66:27
-#~ msgid "User not banned"
-#~ msgstr "Пользователь не забанен"
-
-#~ msgid "User permissions updated"
-#~ msgstr "Права пользователя обновлены"
-
-#~ msgid "User roles"
-#~ msgstr "Роли пользователя"
-
-#~ msgid "User roles updated"
-#~ msgstr "Роли пользователя обновлены"
-
-#~ msgid "Username or email"
-#~ msgstr "Имя пользователя или email"
-
-#~ msgid "We just sent email change confirmation token to the new email address. Please, check your inbox and enter token to the field above."
-#~ msgstr "Мы только что отправили токен подтверждения изменения email на новый адрес электронной почты. Пожалуйста, проверьте свой почтовый ящик и введите токен в поле выше."
-
-#~ msgid "Yes"
-#~ msgstr "Да"
-
-#~ msgid "You have no notifications"
-#~ msgstr "У вас нет уведомлений"
-
-#, fuzzy
-#~| msgid "No records matched search criteria"
-#~ msgid "You have no records match search criteria"
-#~ msgstr "Нет записей, соответствующих критериям поиска"
-
-#~ msgid "Your profile"
-#~ msgstr "Ваш профайл"
-
-#~ msgid "Your Telegram username"
-#~ msgstr "Ваше имя пользователя в Telegram"

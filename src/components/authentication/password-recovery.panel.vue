@@ -62,7 +62,7 @@ export default {
             else {
                 form.reset();
 
-                this.$toast( l10n( "Password change instructions were sent to the email address, associated with your account." ), 5000 );
+                this.$toast( l10n( "Password change instructions were sent to the email address associated with your account." ), 5000 );
 
                 this.back();
             }

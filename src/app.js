@@ -24,7 +24,7 @@ export default class VueExtApp extends VueApp {
 
         this.unmask();
 
-        await this.utils.alert( l10n( "Unable to connect to the API server. Check, that you have internet connection." ), {
+        await this.utils.alert( l10n( "Unable to connect to the API server. Check that you have an internet connection." ), {
             "title": l10n( "Connection error" ),
         } );
 
