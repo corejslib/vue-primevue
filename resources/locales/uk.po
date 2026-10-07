@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Language: uk\n"
-"PO-Revision-Date: 2026-10-06T23:26:14.252Z\n"
+"PO-Revision-Date: 2026-10-07T12:48:32.680Z\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Search-Path: /src/**\n"
 
@@ -10,7 +10,7 @@ msgstr ""
 msgid "${n} day"
 msgid_plural "${n} days"
 msgstr[0] "${n} день"
-msgstr[1] "${n} дня"
+msgstr[1] "${n} дні"
 msgstr[2] "${n} днів"
 
 #: ../../src/components/about.dialog.vue:2:51
