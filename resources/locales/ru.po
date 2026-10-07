@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Language: ru\n"
-"PO-Revision-Date: 2026-10-06T23:24:54.126Z\n"
+"PO-Revision-Date: 2026-10-07T20:25:14.059Z\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Search-Path: /src/**\n"
 
@@ -216,7 +216,8 @@ msgstr "Вызовы"
 
 #: ../../src/components/telegram/bot/links/details.panel.vue:23:67
 #: ../../src/components/telegram/bot/links/details.panel.vue:64:71
-#: ../../src/utils.js:139:36 ../../src/utils.js:86:36
+#: ../../src/utils.js:139:36
+#: ../../src/utils.js:86:36
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -1235,7 +1236,7 @@ msgstr "Имя токена"
 #: ../../src/components/telegram/bot/links/charts.panel.vue:137:24
 #: ../../src/components/telegram/bot/links/charts.panel.vue:170:24
 msgid "Total subscribed users"
-msgstr "Всего подписанных пользователей"
+msgstr "Всего подписчиков"
 
 #: ../../src/components/telegram/bot/details/charts.panel.vue:195:24
 #: ../../src/components/telegram/bot/links/charts.panel.vue:194:24
