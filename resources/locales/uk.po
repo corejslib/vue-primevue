@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Language: uk\n"
-"PO-Revision-Date: 2026-10-07T20:25:14.061Z\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"PO-Revision-Date: 2026-10-10T00:06:09.104Z\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Search-Path: /src/**\n"
 
 #: ../../src/components/development/monitoring/methods/panel.vue:203:29
@@ -517,11 +517,11 @@ msgstr "Введіть новий API токен"
 
 #: ../../src/components/change-email.dialog.vue:6:90
 msgid "Enter new email address"
-msgstr "Введіть нову електронну адресу"
+msgstr "Введіть нову адресу електронної пошти"
 
 #: ../../src/components/change-email.dialog.vue:4:34
 msgid "Enter new email address which you want to use."
-msgstr "Введіть нову електронну адресу, яку ви хочете використовувати."
+msgstr "Введіть нову адресу електронної пошти, яку ви хочете використовувати."
 
 #: ../../src/components/change-password.dialog.vue:10:91
 #: ../../src/components/reset-password.dialog.vue:6:91
@@ -543,11 +543,11 @@ msgstr "Введіть пароль"
 #: ../../src/components/authentication/signin.panel.vue:15:86
 #: ../../src/components/authentication/signup.panel.vue:15:86
 msgid "Enter your email address"
-msgstr "Введіть адресу вашої електронної пошти"
+msgstr "Введіть адресу електронної пошти"
 
 #: ../../src/components/telegram/create-bot.dialog.vue:8:47
 msgid "Enter your Telegram bot API token"
-msgstr "Введіть свій токен API бота Telegram"
+msgstr "Введіть токен API вашого Telegram-бота"
 
 #: ../../src/components/development/monitoring/methods/charts.panel.vue:396:33
 #: ../../src/components/development/monitoring/methods/panel.vue:175:28
@@ -730,7 +730,7 @@ msgstr "Позначити як виконане"
 
 #: ../../src/components/pdf/_panel.vue:77:35
 msgid "Maximize"
-msgstr "Максимізувати"
+msgstr "Розгорнути"
 
 #: ../../src/components/development/monitoring/instances/charts.panel.vue:7:97
 #: ../../src/components/development/monitoring/methods/charts.panel.vue:7:97
@@ -933,19 +933,19 @@ msgstr "Платформа"
 
 #: ../../src/components/account/tokens/create/dialog.vue:11:24
 msgid "Please, copy token to the clipboard and store it to the safe place. After this dialog window will be closed we were unable to show you this token again."
-msgstr "Будь ласка, скопіюйте токен у буфер обміну та збережіть його в надійному місці. Після того, як це діалогове вікно буде закрито, ми не змогли знову показати вам цей токен."
+msgstr "Будь ласка, скопіюйте токен у буфер обміну та збережіть його в надійному місці. Після закриття цього діалогового вікна ми більше не зможемо показати вам цей токен."
 
 #: ../../src/components/notifications/settings.panel.vue:4:118
 msgid "Push notifications"
-msgstr "Push повідомлення"
+msgstr "Push-сповіщення"
 
 #: ../../src/components/push-notifications.button.vue:84:33
 msgid "Push notifications disabled"
-msgstr "Push повідомлення вимкнено"
+msgstr "Push-сповіщення вимкнено"
 
 #: ../../src/components/push-notifications.button.vue:81:33
 msgid "Push notifications enabled"
-msgstr "Push повідомлення ввімкнено"
+msgstr "Push-сповіщення ввімкнено"
 
 #: ../../src/components/development/monitoring/instances/panel.vue:15:57
 msgid "RAM (total)"
@@ -974,11 +974,11 @@ msgstr "Використано RAM (МБ)"
 
 #: ../../src/components/push-notifications.button.vue:36:23
 msgid "Receive push notifications"
-msgstr "Отримувати push повідомлення"
+msgstr "Отримувати push-сповіщення"
 
 #: ../../src/components/notifications/settings.panel.vue:4:39
 msgid "Receive push notifications on this device"
-msgstr "Отримувати push повідомлення на цьому пристрої"
+msgstr "Отримувати push-сповіщення на цьому пристрої"
 
 #: ../../src/components/authentication/password-recovery.panel.vue:16:31
 msgid "Recover"
@@ -1042,7 +1042,7 @@ msgstr "Фільтр ролей"
 #: ../../src/components/acl/roles.button.vue:115:32
 #, javascript-format
 msgid "Roles selected: ${n}"
-msgstr "Вибрані ролі: ${n}"
+msgstr "Вибрано ролей: ${n}"
 
 #: ../../src/components/development/monitoring/instances/panel.vue:19:94
 msgid "RSS (used)"
@@ -1246,7 +1246,7 @@ msgstr "Загальна кількість користувачів, які с�
 #: ../../src/components/telegram/bot/details/info.panel.vue:48:78
 #: ../../src/components/telegram/bot/links/details.panel.vue:36:93
 msgid "Total users"
-msgstr "Всього користувачів"
+msgstr "Усього користувачів"
 
 #: ../../src/components/about.dialog.vue:5:38
 msgid "UI mode"
@@ -1366,7 +1366,7 @@ msgstr "Слідкувати"
 
 #: ../../src/app.js:53:46
 msgid "Your access permissions were changed on API server. Please, reload application to apply updates."
-msgstr "Ваші права доступу змінено на сервері API. Перезавантажте додаток, щоб застосувати оновлення."
+msgstr "Ваші права доступу змінено на сервері API. Будь ласка, перезавантажте додаток, щоб застосувати оновлення."
 
 #: ../../src/components/account/dialog.vue:2:72
 #: ../../src/components/application/menu.vue:16:115

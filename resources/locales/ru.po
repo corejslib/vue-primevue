@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Language: ru\n"
-"PO-Revision-Date: 2026-10-07T20:25:14.059Z\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"PO-Revision-Date: 2026-10-10T00:06:09.102Z\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Search-Path: /src/**\n"
 
 #: ../../src/components/development/monitoring/methods/panel.vue:203:29
@@ -309,7 +309,7 @@ msgstr "Скопировать в буфер обмена"
 
 #: ../../src/components/account/tokens/create/dialog.vue:15:64
 msgid "Copy token to the clipboard"
-msgstr "Копировать токен в буфер"
+msgstr "Скопировать токен в буфер обмена"
 
 #: ../../src/components/development/monitoring/instances/charts.panel.vue:160:24
 msgid "CPU usage"
@@ -660,7 +660,7 @@ msgstr "Дата последней подписки нового пользов
 
 #: ../../src/components/development/cron/panel.vue:16:58
 msgid "Last start"
-msgstr "Последний старт"
+msgstr "Последний запуск"
 
 #: ../../src/components/telegram/bot/links/details.panel.vue:30:100
 #: ../../src/components/telegram/bot/links/panel.vue:31:116
@@ -937,15 +937,15 @@ msgstr "Пожалуйста, скопируйте токен в буфер и �
 
 #: ../../src/components/notifications/settings.panel.vue:4:118
 msgid "Push notifications"
-msgstr "Push уведомления"
+msgstr "Push-уведомления"
 
 #: ../../src/components/push-notifications.button.vue:84:33
 msgid "Push notifications disabled"
-msgstr "Push уведомления выключены"
+msgstr "Push-уведомления отключены"
 
 #: ../../src/components/push-notifications.button.vue:81:33
 msgid "Push notifications enabled"
-msgstr "Push уведомления включены"
+msgstr "Push-уведомления включены"
 
 #: ../../src/components/development/monitoring/instances/panel.vue:15:57
 msgid "RAM (total)"
@@ -974,11 +974,11 @@ msgstr "Использовано RAM (МБ)"
 
 #: ../../src/components/push-notifications.button.vue:36:23
 msgid "Receive push notifications"
-msgstr "Получать push уведомления"
+msgstr "Получать push-уведомления"
 
 #: ../../src/components/notifications/settings.panel.vue:4:39
 msgid "Receive push notifications on this device"
-msgstr "Получать push уведомления на этом устройстве"
+msgstr "Получать push-уведомления на этом устройстве"
 
 #: ../../src/components/authentication/password-recovery.panel.vue:16:31
 msgid "Recover"
@@ -1216,7 +1216,7 @@ msgstr "Токен"
 
 #: ../../src/components/account/tokens/create/dialog.vue:86:25
 msgid "Token copied to the clipboard"
-msgstr "Токен скопирован"
+msgstr "Токен скопирован в буфер обмена"
 
 #: ../../src/components/account/tokens/create/dialog.vue:72:29
 msgid "Token created"
@@ -1342,7 +1342,7 @@ msgstr "Пользователи и разрешения"
 
 #: ../../src/components/about.dialog.vue:40:25
 msgid "Version info copied"
-msgstr "Информация о версии скопирована в буфер"
+msgstr "Информация о версии скопирована в буфер обмена"
 
 #: ../../src/components/telegram/bot/links/panel.vue:111:39
 msgid "View link"
